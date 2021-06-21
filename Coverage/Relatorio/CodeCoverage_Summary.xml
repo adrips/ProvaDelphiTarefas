@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<report>
+  <stats>
+    <packages value="4"/>
+    <classes value="4"/>
+    <methods value="15"/>
+    <srcfiles value="4"/>
+    <srclines value="91"/>
+    <totallines value="91"/>
+    <coveredlines value="73"/>
+    <coveredpercent value="80"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100%   (4/4)"/>
+      <coverage type="method, %" value="73%   (11/15)"/>
+      <coverage type="block, %" value="80%   (73/91)"/>
+      <coverage type="line, %" value="80%   (73/91)"/>
+      <package name="uspGeradorSQL">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (1/1)"/>
+        <coverage type="block, %" value="100%   (3/3)"/>
+        <coverage type="line, %" value="100%   (3/3)"/>
+        <srcfile name="uspGeradorSQL.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (1/1)"/>
+          <coverage type="block, %" value="100%   (3/3)"/>
+          <coverage type="line, %" value="100%   (3/3)"/>
+          <class name="TspGeradorSQL">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (1/1)"/>
+            <coverage type="block, %" value="100%   (3/3)"/>
+            <coverage type="line, %" value="100%   (3/3)"/>
+            <method name="Executar">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="uMatematica">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (2/2)"/>
+        <coverage type="block, %" value="93%   (25/27)"/>
+        <coverage type="line, %" value="93%   (25/27)"/>
+        <srcfile name="uMatematica.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (2/2)"/>
+          <coverage type="block, %" value="93%   (25/27)"/>
+          <coverage type="line, %" value="93%   (25/27)"/>
+          <class name="TMatematica">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (2/2)"/>
+            <coverage type="block, %" value="93%   (25/27)"/>
+            <coverage type="line, %" value="93%   (25/27)"/>
+            <method name="DividirPeloAnterior">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="93%   (14/15)"/>
+              <coverage type="line, %" value="93%   (14/15)"/>
+            </method>
+            <method name="Somar">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="92%   (11/12)"/>
+              <coverage type="line, %" value="92%   (11/12)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="uspQuery">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="64%   (7/11)"/>
+        <coverage type="block, %" value="67%   (32/48)"/>
+        <coverage type="line, %" value="67%   (32/48)"/>
+        <srcfile name="uspQuery.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="64%   (7/11)"/>
+          <coverage type="block, %" value="67%   (32/48)"/>
+          <coverage type="line, %" value="67%   (32/48)"/>
+          <class name="TspQuery">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="64%   (7/11)"/>
+            <coverage type="block, %" value="67%   (32/48)"/>
+            <coverage type="line, %" value="67%   (32/48)"/>
+            <method name="SetspTabelas">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="AtualizarLista">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="ValidarSpTabelas">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="Create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (9/9)"/>
+              <coverage type="line, %" value="100%   (9/9)"/>
+            </method>
+            <method name="SetspCondicoes">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="DoChangeProperties">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="AtualizarSQL">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="DoChangeTabelas">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="GerarSQL">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Destroy">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (6/6)"/>
+              <coverage type="line, %" value="100%   (6/6)"/>
+            </method>
+            <method name="SetspColunas">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="uspStringUtils">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (1/1)"/>
+        <coverage type="block, %" value="100%   (13/13)"/>
+        <coverage type="line, %" value="100%   (13/13)"/>
+        <srcfile name="uspStringUtils.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (1/1)"/>
+          <coverage type="block, %" value="100%   (13/13)"/>
+          <coverage type="line, %" value="100%   (13/13)"/>
+          <class name="TspStringUtils">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (1/1)"/>
+            <coverage type="block, %" value="100%   (13/13)"/>
+            <coverage type="line, %" value="100%   (13/13)"/>
+            <method name="ContarPalavras">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (13/13)"/>
+              <coverage type="line, %" value="100%   (13/13)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

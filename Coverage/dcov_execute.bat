@@ -1,0 +1,1 @@
+CodeCoverage.exe -e "..\TestProvaDelphi\Bin\TestProvaDelphi.exe" -m "..\TestProvaDelphi\Bin\TestProvaDelphi.map" -uf dcov_units.lst -spf dcov_paths.lst -od "Relatorio" -lt -emma -meta -xml -html
